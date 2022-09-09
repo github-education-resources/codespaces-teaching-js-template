@@ -1,3 +1,9 @@
+/**
+ * Header Component
+ * 
+ * Sample of a single responsibility component
+ */
+
 import React from "react"
 
 const Header = () => {

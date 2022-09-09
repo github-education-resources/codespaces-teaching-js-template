@@ -1,8 +1,14 @@
+/**
+ * Application component
+ * 
+ * To contain application wide settings, routes, state, etc.
+ */
+
 import React from "react";
 import Header from "./Components/Header";
 
-const HelloWorld = () => {
+const App = () => {
   return <Header/>;
 };
 
-export default HelloWorld;
+export default App;
