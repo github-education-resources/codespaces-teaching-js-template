@@ -11,7 +11,7 @@ With this JS Codespace template you can immediately create a lesson that provide
 
 ## What is GitHub Codespace and how can I use it in my teaching?
 
-A Codespace is aa development environment that's hosted in the cloud that you can configure.
+A Codespace is a development environment that's hosted in the cloud that you can configure.
 
 ### Why use it
 
@@ -51,7 +51,7 @@ The repo contains the following:
 - `SECURITY`, Microsoft's security policies for open source repositories. Read more in [SECURITY](./SECURITY)
 - `SUPPORT`, how best to get assistance with this repo. Read more in [SUPPORT](./SUPPORT)
 
-#### About the base React application (`/src` )
+### About the base React application (`/src` )
 
 As an example of how you can utilize Codespaces we have set this template to be a base <a href="https://reactjs.org/" target="_blank">React</a> application that utilizes <a href="https://parceljs.org/" target="_blank">Parcel</a> to build.
 
@@ -66,7 +66,7 @@ To run what's in this repo, you need to first start a Codespaces instance.
 
 1. Navigate to the main page of the newly created repository.
 2. Under the repository name, use the Code drop-down menu, and in the Codespaces tab, select "Create codespace on main".
-<img src="https://docs.github.com/assets/cb-138303/images/help/codespaces/new-codespace-button.png" alt="Create codespace" style="width:250px; padding: 1rem; margin"/>
+<img src="https://docs.github.com/assets/cb-138303/images/help/codespaces/new-codespace-button.png" alt="Create codespace" style="width:270px; padding: 1rem; margin"/>
 
 This will trigger a creation of a new Codespaces development environment, and launch that environment in a new tab for you to start working in.
 
