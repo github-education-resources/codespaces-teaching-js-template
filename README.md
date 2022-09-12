@@ -60,12 +60,11 @@ In the source for the React application you will see the bare minimum file struc
 We utilize <a href="https://parceljs.org/" target="_blank">Parcel</a> for it's limited configuration required and ease for you to extend or replace if needed. 
 
 ## Run this template
-<img src="https://docs.github.com/assets/cb-138303/images/help/codespaces/new-codespace-button.png" alt="Create codespace" style="width:250px; float: right; padding: 1rem"/>
-
 To run what's in this repo, you need to first start a Codespaces instance.
 
 1. Navigate to the main page of the newly created repository.
 2. Under the repository name, use the Code drop-down menu, and in the Codespaces tab, select "Create codespace on main".
+<img src="https://docs.github.com/assets/cb-138303/images/help/codespaces/new-codespace-button.png" alt="Create codespace" style="width:250px; padding: 1rem; margin"/>
 
 This will trigger a creation of a new Codespaces development environment, and launch that environment in a new tab for you to start working in.
 
