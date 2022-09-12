@@ -9,18 +9,18 @@ With this JS Codespace template you can immediately create a lesson that provide
 * **Can I use for other JS Frameowrks?** Absolutely. We used React here as an example and provide instructions below how you can use this template and update to your framework requirements.
 * **Prerequistes:** None. This template will provide you a working and deployable web app you can immediately extend for your needs. 
 
-# What is GitHub Codespace and how can I use it in my teaching?
+## What is GitHub Codespace and how can I use it in my teaching?
 
 A Codespace is aa development environment that's hosted in the cloud that you can configure.
 
-## Why use it
+### Why use it
 
 - Repeatable environment offering a 0-config experience.
 - Runs in the cloud.
 - Can be configured and customized.
 - Integrates with your repositories on GitHub.
 
-## Customization
+### Customization
 
 You can customize your project for GitHub Codespaces by committing configuration files to your repository (often known as Configuration-as-Code), which creates a repeatable Codespace configuration for all users of your project.
 
@@ -59,7 +59,9 @@ In the source for the React application you will see the bare minimum file struc
 
 We utilize <a href="https://parceljs.org/" target="_blank">Parcel</a> for it's limited configuration required and ease for you to extend or replace if needed. 
 
-## Run this template
+<details id=1>
+<summary><h3>Run this template</h3></summary>
+
 To run what's in this repo, you need to first start a Codespaces instance.
 
 1. Navigate to the main page of the newly created repository.
@@ -69,8 +71,10 @@ To run what's in this repo, you need to first start a Codespaces instance.
 This will trigger a creation of a new Codespaces development environment, and launch that environment in a new tab for you to start working in.
 
 When complete you will see VS Code load with a terminal section at the bottom. Here you will see `npm install` and `npm run start` automatically executing for you so that you can immediately view the React app running.
+</details>
 
-## Utilize this template
+<details id=1>
+<summary><h3>Utilize this template</h3></summary>
 
 This repo is created as a template for you to extend into your own lesson as your own repository for you to customize as needed.
 
@@ -80,11 +84,13 @@ You will then be taken to a page to select the owner, provide a name and a descr
 
 When all is selected, press the "Create repository from template" button the bottom to create your own repo from this template.
 
-# Challenges
+</details>
+
+## Challenges
 
 This template is intended to be fully customizable for your particular Web Development teaching needs. Here are a few challenge scenarios we will cover for when you are ready.
 
-<details id=1>
+<details id=101>
 <summary><h3>1. Add an extension</h3></summary>
 
 Your environment comes with preinstalled extensions. You can change which extensions your codespaces environment starts with, here's how:
@@ -115,7 +121,7 @@ To find the unique identifier of an extension:
 
 </details>
 
-<details id=2>
+<details id=102>
 <summary><h3>2. Change to a different frontend framework</h3></summary>
 
 At the core of this template app is <a href="https://nodejs.org/" target="_blank">Node.js</a>. On top of a Node.js base app you can utilize multiple JavaScript frameworks to creating an <a href="http://expressjs.com/" target="_blank">Express</a> backend application.  
@@ -138,7 +144,6 @@ In some cases, the initialization of a new framework may overwrite existing `/sr
 If running `npm install` and `npm run start` in the root of your Codespace are no longer valid, simply open `/.devcontainer/devcontainer.json` and update the `postCreateCommand` for what you require for your updated framework and application.
 
 </details>
-
 
 ## Learn more
 
