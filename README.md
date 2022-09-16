@@ -9,6 +9,8 @@ With this JS Codespace template you can immediately create a lesson that provide
 * **Can I use for other JS Frameworks?** Absolutely. We used React here as an example and provide instructions below how you can use this template and update to your framework requirements.
 * **Prerequisites:** None. This template will provide you a working and deployable web app you can immediately extend for your needs.
 
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](ttps://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=526680454)
+
 ## What is GitHub Codespace and how can I use it in my teaching?
 
 A Codespace is a development environment that's hosted in the cloud that you can configure.
@@ -31,7 +33,7 @@ You can configure things like:
 
 > Learn more here, <https://docs.github.com/en/codespaces/customizing-your-codespace/personalizing-github-codespaces-for-your-account>
 
-### For the dducator
+### For the Educator
 
 For you as a teacher that means that you can create an environment, in the cloud, for your class that all students can use with 0 or next to 0 configuration regardless of what operating system they are using.
 
@@ -78,7 +80,7 @@ When complete you will see VS Code load with a terminal section at the bottom. H
 
 This repo is created as a template for you to extend into your own lesson as your own repository for you to customize as needed.
 
-To do this, click the "Use this template" button at the top of this repo.
+To do this, click the "Use this template" button at the top of this repo, or us this [link to generate your own Codespaces Teaching JS Template](https://github.com/microsoft/codespaces-teaching-template-js/generate).
 
 You will then be taken to a page to select the owner, provide a name and a description for this new repository and if you'd like it public or private.
 
@@ -86,7 +88,7 @@ When all is selected, press the "Create repository from template" button the bot
 
 </details>
 
-## Challenges
+## Next Steps
 
 This template is intended to be fully customizable for your particular Web Development teaching needs. Here are a few challenge scenarios we will cover for when you are ready.
 
@@ -143,6 +145,26 @@ In some cases, the initialization of a new framework may overwrite existing `/sr
 
 If running `npm install` and `npm run start` in the root of your Codespace are no longer valid, simply open `/.devcontainer/devcontainer.json` and update the `postCreateCommand` for what you require for your updated framework and application.
 
+</details>
+
+<details id=5>
+<summary><h3>3. Update the version of Node.js</h3></summary>
+
+Let's say you want to change what version of Node.js this project is utilizing. This is something you can control.
+
+Open *.devcontainer/devcontainer.json* and replace the following section:
+
+```json
+"VARIANT": "16-bullseye"
+```
+
+with the following instruction:
+
+```json
+"VARIANT": "18.9-bullseye"
+```
+
+this change will use Node.js 18.9 instead of 16. The complete list of all Node.js variants available can be found at [hub.docker.com/_/node](https://hub.docker.com/_/node)
 </details>
 
 ## Learn more
