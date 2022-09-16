@@ -1,3 +1,5 @@
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=526680454)
+
 # JavaScript Codespace Template (React)
 
 _Extend and use for your Web Development lessons in minutes._
@@ -8,8 +10,6 @@ With this JS Codespace template you can immediately create a lesson that provide
 * **How much experience do students need?** Zero. This template is built with basic elements complete with comments so it can be used in beginner to advanced lessons.
 * **Can I use for other JS Frameworks?** Absolutely. We used React here as an example and provide instructions below how you can use this template and update to your framework requirements.
 * **Prerequisites:** None. This template will provide you a working and deployable web app you can immediately extend for your needs.
-
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](ttps://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=526680454)
 
 ## What is GitHub Codespace and how can I use it in my teaching?
 
