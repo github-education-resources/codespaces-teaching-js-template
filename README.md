@@ -15,6 +15,15 @@ With this JS Codespace template you can immediately create a lesson that provide
 
 A Codespace is a development environment that's hosted in the cloud that you can configure.
 
+
+### Quick Start
+
+1. Click the **Use this Template** button
+2. Select the repository owner (e.g. your GitHub account)
+3. Enter a unique name for your new repository
+4. Click the **Code** button
+5. Click **Create Codespace on main** button
+ 
 ### Why use it
 
 * Repeatable environment offering a 0-config experience.
