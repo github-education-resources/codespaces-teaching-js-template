@@ -39,7 +39,7 @@ Teachers can create an environment, in the cloud, for your class that all studen
 
 ## Codespaces JavaScript template
 
-This repository is a GitHub template for a Web application using the React web framework. The goal here is to give you a template to you can immediately use. You can aslo use the steps in this document to adapt it for your particular needs.
+This repository is a GitHub template for a web application using the React web framework. The goal here is to give you a template to you can immediately use. You can also use the steps in this document to adapt it for your particular needs.
 
 The repository contains the following:
 
