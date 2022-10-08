@@ -75,19 +75,23 @@ To run what's in this repository, you need to first start a Codespaces instance.
 1. Create a repository from this template. Use this [create repo link](https://github.com/microsoft/codespaces-teaching-template-js/generate). Select the repository owner, provide a name, a description if you'd like and if you'd like the new repository to be public or private.
 2. Navigate to the main page of the newly created repository.
 3. Under the repository name, use the Code drop-down menu, and in the Codespaces tab, select "Create codespace on main".
-<img src="https://docs.github.com/assets/cb-138303/images/help/codespaces/new-codespace-button.png" alt="Create Codespace" style="width:270px; padding: 1rem;"/>
+<img src="https://docs.github.com/assets/cb-138303/images/help/codespaces/new-codespace-button.png" alt="Create Codespace" style="width: 270px; padding: 1rem;"/>
 4. Wait as GitHub initializes the Codespace.
-<img src="https://user-images.githubusercontent.com/82035/194710065-92f8c325-6f57-4c77-88d7-da8db3c235e9.png" alt="Codespace initializing" style="max-width:400px; padding: 1rem;"/>
+<img src="https://user-images.githubusercontent.com/82035/194710065-92f8c325-6f57-4c77-88d7-da8db3c235e9.png" alt="Codespace initializing" style="width: 600px; padding: 1rem;"/>
 
 When complete you will see your Codespace load with a terminal section at the bottom. Here you will see `npm install` executing. When complete you will return to the terminal prompt where you can run the web application by executing: `npm run start` 
 
 When the web application is started you will see a prompt telling you it started successfully on port 1234, and you can open that site within your browser:
-<img src="https://user-images.githubusercontent.com/82035/194709984-7e01f9db-df3e-41dc-bc1d-ce38b16b812d.png" alt="Web application started on port 1234" style="width:270px; padding: 1rem;"/>
+<img src="https://user-images.githubusercontent.com/82035/194709984-7e01f9db-df3e-41dc-bc1d-ce38b16b812d.png" alt="Web application started on port 1234" style="width: 340px; padding: 1rem;"/>
 
 
 ## Customize the Codespace
 
-This template is intended to be fully customizable for your particular Web Development teaching needs. Here are a few challenge scenarios we will cover, when you are ready.
+This template is intended to be fully customizable for your particular Web Development teaching needs. Here are three different challenge scenarios you are likely to want to do:
+
+1. Add an extension
+2. Change to a different frontend web framework
+3. Update the version of Node.js
 
 ### Step 1: Add an extension
 
