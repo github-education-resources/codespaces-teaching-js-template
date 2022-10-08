@@ -4,9 +4,9 @@
 
 _Extend and use for your Web Development lessons in minutes._
 
-With this JavaScript Codespace template educators and teachers can immediately create a lesson that provides a consistent starting point for your students. This enables you to focus on the web development content you are teaching, and let Codespaces handle the environment setup for you.
+With this JavaScript Codespace template you can immediately create a normalized environemnt to teach or learn web development. This enables you to focus on the web development content you are teaching, and let Codespaces handle the environment setup for you.
 
-* **Who is this for?** Educators and teachers of all levels, and those looking for a great template to build a web app.
+* **Who is this for?** Educators of all levels, and those looking for a great template to build a web app.
 * **How much experience do students need?** Zero. This template is built with basic elements complete with comments so it can be used in beginner to advanced lessons.
 * **Can I use this template for other Web Frameworks?** Absolutely. This template uses React as an example, but instructions are included in this document to help you use this template with your web framework.
 * **Prerequisites:** None. This template will provide a working and deployable web app you can immediately extend for your needs.
@@ -31,6 +31,12 @@ A Codespace is a development environment that's hosted in the cloud that you can
 * Can be configured and customized.
 * Integrates with your repositories on GitHub.
 
+<details>
+   <summary><b>🎥 Watch the video tutorial to learn more about Codespaces</b></summary>
+   
+   [![Codespaces Tutorial](https://img.youtube.com/vi/ozuDPmcC1io/0.jpg)](https://aka.ms/CodespacesVideoTutorial "Codespaces Tutorial")
+</details>
+
 ### Customization
 
 You can customize your project for GitHub Codespaces by committing configuration files to your repository (often known as Configuration-as-Code), which creates a repeatable Codespace configuration for all users of your project.
@@ -40,11 +46,7 @@ You can configure things like:
 * Extensions: You can specify what Visual Studio Code extensions should be preinstalled.
 * Dotfiles and settings.
 
-> Learn more here, <https://docs.github.com/en/codespaces/customizing-your-codespace/personalizing-github-codespaces-for-your-account>
-
-### For the Educator
-
-Teachers can create an environment, in the cloud, for your class that all students can use with zero or next to zero configuration, regardless of what operating system they are using.
+> 💡 Learn more here, <https://docs.github.com/en/codespaces/customizing-your-codespace/personalizing-github-codespaces-for-your-account>
 
 ## Codespaces JavaScript template
 
@@ -52,59 +54,38 @@ This repository is a GitHub template for a web application using the React web f
 
 The repository contains the following:
 
-* `/src`, the sub directory `/src` contains the HTML, JavaScript and CSS for the Web application.
-* `.eslintrc`, settings for <a href="https://eslint.org/" target="_blank">ESLint</a> that is included for code consistency and quality.
-* `.prettierrc`, settings for <a href="https://prettier.io/" target="_blank">Prettier</a> that is used to format code.
-* `CODE_OF_CONDUCT`, Microsoft's Code of Conduct for open source repositories. Learn more by reading the [CODE_OF_CONDUCT](./CODE_OF_CONDUCT) file in this repository.
-* `LICENSE`, this project is under MIT license. Learn more by reading the [LICENSE](./LICENSE) file in this repository.
-* `package.json` and `package-lock.json`, these 2 files define the project information for <a href="https://nodejs.org/" target="_blank">Node.js</a>, dependent packages and the versions needed of each. 
-* `README.md`. this file describes this repository and what's in it.
-* `SECURITY`, Microsoft's security policies for open source repositories. Read more in [SECURITY](./SECURITY)
-* `SUPPORT`, how best to get assistance with this repository. Read more in [SUPPORT](./SUPPORT)
+* `/src`: HTML, JavaScript and CSS files for the web application.
+* `.eslintrc`: Settings for <a href="https://eslint.org/" target="_blank">ESLint</a> that is included for code consistency and quality.
+* `.prettierrc`: Settings for <a href="https://prettier.io/" target="_blank">Prettier</a> that is used to format code.
+* `package.json` and `package-lock.json`: Define the project information for <a href="https://nodejs.org/" target="_blank">Node.js</a>, dependent packages and the versions needed of each. 
 
 ### About the Web application (`/src` )
 
-We set this template to demonstrate a Web application using the <a href="https://reactjs.org/" target="_blank">React</a> framework and <a href="https://parceljs.org/" target="_blank">Parcel</a> to build the application within Codespaces.
+We set this template to demonstrate a web application using the <a href="https://reactjs.org/" target="_blank">React</a> framework and <a href="https://parceljs.org/" target="_blank">Parcel</a> to build the application within Codespaces.
 
-You will see in the source code that there is the bare minimum file structure for a working application. Included in that is a sample component (Header) to demonstrate how to incorporate components into your application. 
+We've included the bare minimum file structure for a working application, so you have immediate ability to customize. Also included is a sample component (Header) to demonstrate how to incorporate components into your application. 
 
 The template uses <a href="https://parceljs.org/" target="_blank">Parcel</a> because it's regarded one of the eaisest to use, with limited configuration. You can of course extend or replace this.
 
-<details id=1>
-<summary><h3>Run this template</h3></summary>
+## Run this template
 
 To run what's in this repository, you need to first start a Codespaces instance.
 
+1. Create a repository from this template. Use this [create repo link](https://github.com/microsoft/codespaces-teaching-template-js/generate). Select the repository owner, provide a name, a description if you'd like and if you'd like the new repository to be public or private.
 1. Navigate to the main page of the newly created repository.
-2. Under the repository name, use the Code drop-down menu, and in the Codespaces tab, select "Create codespace on main".
+1. Under the repository name, use the Code drop-down menu, and in the Codespaces tab, select "Create codespace on main".
 <img src="https://docs.github.com/assets/cb-138303/images/help/codespaces/new-codespace-button.png" alt="Create codespace" style="width:270px; padding: 1rem;"/>
-
-This will trigger a creation of a new Codespaces development environment, and launch that environment in a new tab for you to start working.
+1. Wait as GitHub initializes the Codespace.
 
 When complete you will see your Codespace load with a terminal section at the bottom. Here you will see `npm install` and `npm run start` automatically executing for you so that you can immediately view the running app.
-</details>
 
-<details id=2>
-<summary><h3>Use this template</h3></summary>
-
-This repository is created as a template for you to extend into your own lesson as your own repository for you to customize, as needed.
-
-To create your own repository from this template, click the "Use this template" button at the top of this repository, or us this [link to generate your own Codespaces Teaching JS Template](https://github.com/microsoft/codespaces-teaching-template-js/generate).
-
-You will then be taken to a page to select the owner, provide a name and a description for this new repository and if you'd like it public or private.
-
-When all is selected, press the "Create repository from template" button the bottom. This will create your own repository from this template.
-
-</details>
-
-## Next Steps
+## Customize the Codespace
 
 This template is intended to be fully customizable for your particular Web Development teaching needs. Here are a few challenge scenarios we will cover, when you are ready.
 
-<details id=3>
-<summary><h3>1. Add an extension</h3></summary>
+### Step 1: Add an extension
 
-Your environment comes with preinstalled extensions. You can change which extensions your codespaces environment starts with, here's how:
+Your environment comes with preinstalled extensions. You can change which extensions your Codespaces environment starts with. Here's how:
 
 1. Open file _.devcontainer/devcontainer.json_ and locate the following JSON element **extensions**
 
@@ -117,23 +98,27 @@ Your environment comes with preinstalled extensions. You can change which extens
    ]
    ```
 
-1. Add the following entry to **extensions** list:
+1. Add "_oderwat.indent-rainbow_" to the list of extensions. It should end up looking like the following:
 
    ```json
-   "codespaces-Contrib.codeswing"
+   "extensions": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "ms-vscode.azure-account",
+        "ms-azuretools.vscode-azurestaticwebapps",
+        "oderwat.indent-rainbow"
+   ]
    ```
-  
-   This adds the unique identifier of an extension of the [CodeSwing extension](https://marketplace.visualstudio.com/items?itemName=codespaces-Contrib.codeswing). This will let Codespaces know that this extension should be pre installed upon startup.
+ 
+The string added is the unique identifier of <a href="https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow" target="_blank">indent-rainbow</a>, a popular extension to make indentation more readable. Adding "_oderwat.indent-rainbow_" identifier to the list lets Codespaces know that this extenion should be pre-installed upon startup. 
 
 To find the unique identifier of an extension:
 
-* Navigate to the extension's web page, like so <https://marketplace.visualstudio.com/items?itemName=codespaces-Contrib.codeswing>
+* Navigate to the extension's web page, like so <a href="https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow" target="_blank">
 * Locate the _Unique Identifier_ field under **More info** section on your right side.
 
-</details>
 
-<details id=4>
-<summary><h3>2. Change to a different frontend Web framework</h3></summary>
+### Step 2: Change to a different frontend web framework
 
 At the core of this template app is <a href="https://nodejs.org/" target="_blank">Node.js</a>. On top of a Node.js base app you can utilize multiple Web frameworks to create an <a href="http://expressjs.com/" target="_blank">Express</a> backend application. 
 
@@ -154,10 +139,7 @@ In some cases, the initialization of a new framework may overwrite existing `/sr
 
 If running `npm install` and `npm run start` in the root of your Codespace are no longer valid, open `/.devcontainer/devcontainer.json` and update the `postCreateCommand` for what you require for your updated framework and application.
 
-</details>
-
-<details id=5>
-<summary><h3>3. Update the version of Node.js</h3></summary>
+### Step 3: Update the version of Node.js
 
 If you want to change what version of Node.js this project is using, follow these steps:
 
@@ -174,9 +156,16 @@ with the following instruction:
 ```
 
 This change will use Node.js 18.9 instead of 16. The complete list of all Node.js variants available can be found at [hub.docker.com/_/node](https://hub.docker.com/_/node)
-</details>
+
+Reminder: When you change any configuration on the json, a box will appear after saving.
+
+Click on rebuild. Wait for your codespace to rebuild the VS Code environment.
+
 
 ## Learn more
 
 * [GitHub Codespaces docs overview](https://docs.github.com/en/codespaces/overview)
 * [GitHub Codespaces docs quickstart](https://docs.github.com/en/codespaces/getting-started/quickstart)
+
+### 🔎 Found an issue or have an idea for improvement? 
+Help us make this template repository better by [letting us know and opening an issue!](/../../issues/new). 
