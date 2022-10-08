@@ -37,14 +37,15 @@ A Codespace is a development environment that's hosted in the cloud that you can
    [![Codespaces Tutorial](https://img.youtube.com/vi/ozuDPmcC1io/0.jpg)](https://aka.ms/CodespacesVideoTutorial "Codespaces Tutorial")
 </details>
 
-### Customization
+## Customization
 
 You can customize your project for GitHub Codespaces by committing configuration files to your repository (often known as Configuration-as-Code), which creates a repeatable Codespace configuration for all users of your project.
 
 You can configure things like:
 
-* Extensions: You can specify what Visual Studio Code extensions should be preinstalled.
-* Dotfiles and settings.
+* Extensions: You can specify what Visual Studio Code extensions should be preinstalled
+* Dotfiles and settings
+* Operating system libraries and dependencies
 
 > 💡 Learn more here, <https://docs.github.com/en/codespaces/customizing-your-codespace/personalizing-github-codespaces-for-your-account>
 
@@ -72,12 +73,19 @@ The template uses <a href="https://parceljs.org/" target="_blank">Parcel</a> bec
 To run what's in this repository, you need to first start a Codespaces instance.
 
 1. Create a repository from this template. Use this [create repo link](https://github.com/microsoft/codespaces-teaching-template-js/generate). Select the repository owner, provide a name, a description if you'd like and if you'd like the new repository to be public or private.
-1. Navigate to the main page of the newly created repository.
-1. Under the repository name, use the Code drop-down menu, and in the Codespaces tab, select "Create codespace on main".
+2. Navigate to the main page of the newly created repository.
+3. Under the repository name, use the Code drop-down menu, and in the Codespaces tab, select "Create codespace on main".
 <img src="https://docs.github.com/assets/cb-138303/images/help/codespaces/new-codespace-button.png" alt="Create codespace" style="width:270px; padding: 1rem;"/>
-1. Wait as GitHub initializes the Codespace.
+4. Wait as GitHub initializes the Codespace.
+![image](https://user-images.githubusercontent.com/82035/194710065-92f8c325-6f57-4c77-88d7-da8db3c235e9.png)
 
-When complete you will see your Codespace load with a terminal section at the bottom. Here you will see `npm install` and `npm run start` automatically executing for you so that you can immediately view the running app.
+
+
+When complete you will see your Codespace load with a terminal section at the bottom. Here you will see `npm install` executing. When complete you will return to the terminal prompt where you can run the web application by executing: `npm run start` 
+
+When the web application is started you will see a prompt telling you it started successfully on port 1234, and you can open that site within your browser:
+![image](https://user-images.githubusercontent.com/82035/194709984-7e01f9db-df3e-41dc-bc1d-ce38b16b812d.png)
+
 
 ## Customize the Codespace
 
