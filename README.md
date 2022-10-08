@@ -4,7 +4,7 @@
 
 _Extend and use for your Web Development lessons in minutes._
 
-With this JavaScript Codespace template you can immediately create a normalized environemnt to teach or learn web development. This enables you to focus on the web development content you are teaching, and let Codespaces handle the environment setup for you.
+With this JavaScript Codespace template you can immediately create a normalized environment to teach or learn web development. This enables you to focus on the web development content you are teaching, and let Codespaces handle the environment setup for you.
 
 * **Who is this for?** Educators of all levels, and those looking for a great template to build a web app.
 * **How much experience do students need?** Zero. This template is built with basic elements complete with comments so it can be used in beginner to advanced lessons.
@@ -49,7 +49,7 @@ You can configure things like:
 
 > 💡 Learn more here, <https://docs.github.com/en/codespaces/customizing-your-codespace/personalizing-github-codespaces-for-your-account>
 
-## Codespaces JavaScript template
+## 🗃️ Codespaces JavaScript template
 
 This repository is a GitHub template for a web application using the React web framework. The goal here is to give you a template to you can immediately use. You can also use the steps in this document to adapt it for your particular needs.
 
@@ -68,24 +68,24 @@ We've included the bare minimum file structure for a working application, so you
 
 The template uses <a href="https://parceljs.org/" target="_blank">Parcel</a> because it's regarded one of the eaisest to use, with limited configuration. You can of course extend or replace this.
 
-## Run this template
+## 🚀 Run this template
 
 To run what's in this repository, you need to first start a Codespaces instance.
 
 1. Create a repository from this template. Use this [create repo link](https://github.com/microsoft/codespaces-teaching-template-js/generate). Select the repository owner, provide a name, a description if you'd like and if you'd like the new repository to be public or private.
 2. Navigate to the main page of the newly created repository.
 3. Under the repository name, use the Code drop-down menu, and in the Codespaces tab, select "Create codespace on main".
-<img src="https://docs.github.com/assets/cb-138303/images/help/codespaces/new-codespace-button.png" alt="Create Codespace" style="width: 270px; padding: 1rem;"/>
+<div style="display: flex;justify-content: center;"><img src="https://docs.github.com/assets/cb-138303/images/help/codespaces/new-codespace-button.png" alt="Create Codespace" style="width: 270px; padding: 1rem;"/></div>
 4. Wait as GitHub initializes the Codespace.
-<img src="https://user-images.githubusercontent.com/82035/194710065-92f8c325-6f57-4c77-88d7-da8db3c235e9.png" alt="Codespace initializing" style="width: 600px; padding: 1rem;"/>
+<div style="display: flex;justify-content: center;"><img src="https://user-images.githubusercontent.com/82035/194710065-92f8c325-6f57-4c77-88d7-da8db3c235e9.png" alt="Codespace initializing" style="width: 600px; padding: 1rem;"/></div>
 
 When complete you will see your Codespace load with a terminal section at the bottom. Here you will see `npm install` executing. When complete you will return to the terminal prompt where you can run the web application by executing: `npm run start` 
 
 When the web application is started you will see a prompt telling you it started successfully on port 1234, and you can open that site within your browser:
-<img src="https://user-images.githubusercontent.com/82035/194709984-7e01f9db-df3e-41dc-bc1d-ce38b16b812d.png" alt="Web application started on port 1234" style="width: 340px; padding: 1rem;"/>
+<div style="display: flex;justify-content: center;"><img src="https://user-images.githubusercontent.com/82035/194709984-7e01f9db-df3e-41dc-bc1d-ce38b16b812d.png" alt="Web application started on port 1234" style="width: 340px; padding: 1rem;"/></div>
 
 
-## Customize the Codespace
+## ✨ Customize the Codespace
 
 This template is intended to be fully customizable for your particular Web Development teaching needs. Here are three different challenge scenarios you are likely to want to do:
 
@@ -124,7 +124,7 @@ The string added is the unique identifier of <a href="https://marketplace.visual
 
 To find the unique identifier of an extension:
 
-* Navigate to the extension's web page, like so <a href="https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow" target="_blank">
+* Navigate to the extension's web page, for example <a href="https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow" target="_blank">indent-rainbow</a>
 * Locate the _Unique Identifier_ field under **More info** section on your right side.
 
 
@@ -145,9 +145,9 @@ Once you have your updates packages you will then need to:
 * Update the ESLint configuration to match your desired Web framework.
 * Update any Prettier configuration, if required.
 
-In some cases, the initialization of a new framework may overwrite existing `/src` files, not a problem. The Codespace is set to run `npm install` and `npm run start` on start. As long as those are still valid for your framework Codespace will continue to work as expected.
+In some cases, the initialization of a new framework may overwrite existing `/src` files, not a problem. The Codespace is set to run `npm install`on start. As long as those are still valid for your framework Codespace will continue to work as expected.
 
-If running `npm install` and `npm run start` in the root of your Codespace are no longer valid, open `/.devcontainer/devcontainer.json` and update the `postCreateCommand` for what you require for your updated framework and application.
+If running `npm install` in the root of your Codespace are no longer valid, open `/.devcontainer/devcontainer.json` and update the `postCreateCommand` for what you require for your updated framework and application.
 
 ### Step 3: Update the version of Node.js
 
@@ -172,7 +172,7 @@ Reminder: When you change any configuration on the json, a box will appear after
 Click on rebuild. Wait for your codespace to rebuild the VS Code environment.
 
 
-## Learn more
+## 📚 Learn more
 
 * [GitHub Codespaces docs overview](https://docs.github.com/en/codespaces/overview)
 * [GitHub Codespaces docs quickstart](https://docs.github.com/en/codespaces/getting-started/quickstart)
