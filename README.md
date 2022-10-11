@@ -33,7 +33,7 @@ A Codespace is a development environment that's hosted in the cloud that you can
 * Integrates with your repositories on GitHub.
 
 > 🎥 **Watch the video tutorial to learn more about Codespaces** <br/>
-> <a href="https://aka.ms/CodespacesVideoTutorial" target="_blank">![image](https://img.youtube.com/vi/ozuDPmcC1io/0.jpg)</a>
+> <a href="https://aka.ms/CodespacesVideoTutorial">![image](https://img.youtube.com/vi/ozuDPmcC1io/0.jpg)</a>
    
    
 ### Customization
@@ -44,7 +44,7 @@ You can customize your project for GitHub Codespaces by committing configuration
   * Dotfiles and settings
   * Operating system libraries and dependencies
 
-> 💡 Learn more here, <a href="https://docs.github.com/en/codespaces/customizing-your-codespace/personalizing-github-codespaces-for-your-account" target="_blank">docs.github.com/en/codespaces/customizing-your-codespace/personalizing-github-codespaces-for-your-account</a>
+> 💡 Learn more here, [docs.github.com/en/codespaces/customizing-your-codespace/personalizing-github-codespaces-for-your-account](https://docs.github.com/en/codespaces/customizing-your-codespace/personalizing-github-codespaces-for-your-account)
 
 <br />
 
@@ -55,17 +55,17 @@ This repository is a GitHub template for a web application using the React web f
 The repository contains the following:
 
 * `/src`: HTML, JavaScript and CSS files for the web application.
-* `.eslintrc`: Settings for <a href="https://eslint.org/" target="_blank">ESLint</a> that is included for code consistency and quality.
-* `.prettierrc`: Settings for <a href="https://prettier.io/" target="_blank">Prettier</a> that is used to format code.
-* `package.json` and `package-lock.json`: Define the project information for <a href="https://nodejs.org/" target="_blank">Node.js</a>, dependent packages and the versions needed of each. 
+* `.eslintrc`: Settings for [ESLint](https://eslint.org/) that is included for code consistency and quality.
+* `.prettierrc`: Settings for [Prettier](https://prettier.io/) that is used to format code.
+* `package.json` and `package-lock.json`: Define the project information for [Node.js](https://nodejs.org/), dependent packages and the versions needed of each. 
 
 ### About the Web application (`/src` )
 
-We set this template to demonstrate a web application using the <a href="https://reactjs.org/" target="_blank">React</a> framework and <a href="https://parceljs.org/" target="_blank">Parcel</a> to build the application within Codespaces.
+We set this template to demonstrate a web application using the [React](https://reactjs.org/) framework and [Parcel](https://parceljs.org/) to build the application within Codespaces.
 
 We've included the bare minimum file structure for a working application, so you have immediate ability to customize. Also included is a sample component (Header) to demonstrate how to incorporate components into your application. 
 
-The template uses <a href="https://parceljs.org/" target="_blank">Parcel</a> because it's regarded one of the eaisest to use, with limited configuration. You can of course extend or replace this.
+The template uses [Parcel](https://parceljs.org/) because it's regarded one of the eaisest to use, with limited configuration. You can of course extend or replace this.
 
 ![image](https://user-images.githubusercontent.com/82035/195201984-2ca8f38b-c834-4b94-a69a-5a727aaf90eb.png)
 
@@ -101,11 +101,11 @@ This template is intended to be fully customizable for your particular Web Devel
   2. Change to a different frontend web framework
   3. Update the version of Node.js
 
-  > 💡 Learn more here, <https://docs.github.com/en/codespaces/customizing-your-codespace/personalizing-github-codespaces-for-your-account>
+  > 💡 Learn more here, [docs.github.com/en/codespaces/customizing-your-codespace/personalizing-github-codespaces-for-your-account](https://docs.github.com/en/codespaces/customizing-your-codespace/personalizing-github-codespaces-for-your-account)
 
 ### Step 1: Add an extension
 
-VS Code extensions let you add functionality to your VS Code instance so that you can setup to meet your particular development  workflow. In <a href="https://marketplace.visualstudio.com/VSCode?WT.mc_id=academic-79297-sagibbon" target="_blank">VS Code Marketplace</a> you can browse the complete collection to find the exact language, linter, debuggers, and more that you need for your project.
+VS Code extensions let you add functionality to your VS Code instance so that you can setup to meet your particular development  workflow. In [VS Code Marketplace](https://marketplace.visualstudio.com/VSCode?WT.mc_id=academic-79297-sagibbon) you can browse the complete collection to find the exact language, linter, debuggers, and more that you need for your project.
 
 Within this template we have preinstalled extensions for you to utilize within your Codespace. Here is how you can view and change which extensions your Codespaces environment starts with::
 
@@ -132,17 +132,17 @@ Within this template we have preinstalled extensions for you to utilize within y
    ]
    ```
  
-The string added is the unique identifier of <a href="https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow?WT.mc_id=academic-79297-sagibbon" target="_blank">indent-rainbow</a>, a popular extension to make indentation more readable. Adding "_oderwat.indent-rainbow_" identifier to the list lets Codespaces know that this extenion should be pre-installed upon startup. 
+The string added is the unique identifier of [indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow?WT.mc_id=academic-79297-sagibbon), a popular extension to make indentation more readable. Adding "_oderwat.indent-rainbow_" identifier to the list lets Codespaces know that this extenion should be pre-installed upon startup. 
 
 To find the unique identifier of an extension:
 
-* Navigate to the extension's web page, for example <a href="https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow?WT.mc_id=academic-79297-sagibbon" target="_blank">indent-rainbow</a>
+* Navigate to the extension's web page, for example [indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow?WT.mc_id=academic-79297-sagibbon)
 * Locate the _Unique Identifier_ field under **More info** section on your right side.
 
 
 ### Step 2: Change to a different frontend web framework
 
-At the core of this template app is <a href="https://nodejs.org/" target="_blank">Node.js</a>. On top of a Node.js base app you can utilize multiple Web frameworks to create an <a href="http://expressjs.com/" target="_blank">Express</a> backend application. 
+At the core of this template app is [Node.js](https://nodejs.org/). On top of a Node.js base app you can utilize multiple Web frameworks to create an [Express](http://expressjs.com/) backend application. 
 
 To get started customizing for your needs:
 
@@ -186,9 +186,9 @@ Click on rebuild. Wait for your codespace to rebuild the VS Code environment.
 
 ## 📚 Learn more
 
-* <a href="https://docs.github.com/en/codespaces/overview" target="_blank">GitHub Codespaces docs overview</a>
-* <a href="https://docs.github.com/en/codespaces/getting-started/quickstart" target="_blank">GitHub Codespaces docs quickstart</a>
-* <a href="https://github.com/microsoft/vscode-remote-try-node" target="_blank">Use dev containers locally</div>
+* [GitHub Codespaces docs overview](https://docs.github.com/en/codespaces/overview)
+* [GitHub Codespaces docs quickstart](https://docs.github.com/en/codespaces/getting-started/quickstart)
+* [Use dev containers locally](https://github.com/microsoft/vscode-remote-try-node)
 
 ### 🔎 Found an issue or have an idea for improvement? 
 Help us make this template repository better by [letting us know and opening an issue!](/../../issues/new). 
