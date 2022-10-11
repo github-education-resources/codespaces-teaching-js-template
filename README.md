@@ -19,10 +19,11 @@ A Codespace is a development environment that's hosted in the cloud that you can
 ### Quick Start
 
 1. Click the **Use this Template** button
-2. Select the repository owner (e.g. your GitHub account)
-3. Enter a unique name for your new repository
-4. Click the **Code** button
-5. Click **Create Codespace on main** button
+1. Select the repository owner (e.g. your GitHub account or organization)
+1. Enter a unique name for your new repository
+1. Click **Create repository from template**
+1. Once repository created, click the **Code** button
+1. Click **Create Codespace on main** button
  
 ### Why use it
 
@@ -30,7 +31,7 @@ A Codespace is a development environment that's hosted in the cloud that you can
 * Runs in the cloud.
 * Can be configured and customized.
 * Integrates with your repositories on GitHub.
-
+<br /><br />
 <details>
    <summary><b>🎥 Watch the video tutorial to learn more about Codespaces</b></summary>
    
@@ -88,6 +89,9 @@ When the web application is started you will see a prompt telling you it started
   
    <img src="https://user-images.githubusercontent.com/82035/194709984-7e01f9db-df3e-41dc-bc1d-ce38b16b812d.png" alt="Web application started on port 1234" style="width: 340px;"/>
 
+> ###### Codespaces browser app 
+> If you are using Edge or Chrome you will see an option to install the Codespaces app when you launch your Codespace. The Codespaces app let's you launch your Codesapce within the app so you can work outside of the browser.  Look for the app icon and install pop-up to try it out.
+
 
 ## ✨ Customize the Codespace
 
@@ -101,7 +105,7 @@ This template is intended to be fully customizable for your particular Web Devel
 
 VS Code extensions let you add functionality to your VS Code instance so that you can setup to meet your particular development  workflow. In <a href="https://marketplace.visualstudio.com/VSCode?WT.mc_id=academic-79297-sagibbon" target="_blank">VS Code Marketplace</a> you can browse the complete collection to find the exact language, linter, debuggers, and more that you need for your project.
 
-Within this template we have preinstalled extensions for you to utilize within your Codespace. Here is how you can viewm and change which extensions your Codespaces environment starts with::
+Within this template we have preinstalled extensions for you to utilize within your Codespace. Here is how you can view and change which extensions your Codespaces environment starts with::
 
 1. Open file _.devcontainer/devcontainer.json_ and locate the following JSON element **extensions**
 
@@ -180,8 +184,9 @@ Click on rebuild. Wait for your codespace to rebuild the VS Code environment.
 
 ## 📚 Learn more
 
-* [GitHub Codespaces docs overview](https://docs.github.com/en/codespaces/overview)
-* [GitHub Codespaces docs quickstart](https://docs.github.com/en/codespaces/getting-started/quickstart)
+* <a href="https://docs.github.com/en/codespaces/overview" target="_blank">GitHub Codespaces docs overview</a>
+* <a href="https://docs.github.com/en/codespaces/getting-started/quickstart" target="_blank">GitHub Codespaces docs quickstart</a>
+* <a href="https://github.com/microsoft/vscode-remote-try-node" target="_blank">Use dev containers locally</div>
 
 ### 🔎 Found an issue or have an idea for improvement? 
 Help us make this template repository better by [letting us know and opening an issue!](/../../issues/new). 
