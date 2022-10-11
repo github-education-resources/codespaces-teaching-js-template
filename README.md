@@ -99,7 +99,9 @@ This template is intended to be fully customizable for your particular Web Devel
 
 ### Step 1: Add an extension
 
-Your environment comes with preinstalled extensions. You can change which extensions your Codespaces environment starts with. Here's how:
+VS Code extensions let you add functionality to your VS Code instance so that you can setup to meet your particular development  workflow. In <a href="https://marketplace.visualstudio.com/VSCode" target="_blank">VS Code Marketplace</a> you can browse the complete collection to find the exact language, linter, debuggers, and more that you need for your project.
+
+Within this template we have preinstalled extensions for you to utilize within your Codespace. Here is how you can viewm and change which extensions your Codespaces environment starts with::
 
 1. Open file _.devcontainer/devcontainer.json_ and locate the following JSON element **extensions**
 
