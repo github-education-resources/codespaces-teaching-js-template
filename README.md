@@ -34,7 +34,7 @@ A Codespace is a development environment that's hosted in the cloud that you can
 <details>
    <summary><b>🎥 Watch the video tutorial to learn more about Codespaces</b></summary>
    
-   [![Codespaces Tutorial](https://img.youtube.com/vi/ozuDPmcC1io/0.jpg)](https://aka.ms/CodespacesVideoTutorial "Codespaces Tutorial")
+   <a href="https://aka.ms/CodespacesVideoTutorial" target="_blank">[![Codespaces Tutorial](https://img.youtube.com/vi/ozuDPmcC1io/0.jpg)]</a>
 </details>
 
 ## Customization
@@ -99,7 +99,9 @@ This template is intended to be fully customizable for your particular Web Devel
 
 ### Step 1: Add an extension
 
-Your environment comes with preinstalled extensions. You can change which extensions your Codespaces environment starts with. Here's how:
+VS Code extensions let you add functionality to your VS Code instance so that you can setup to meet your particular development  workflow. In <a href="https://marketplace.visualstudio.com/VSCode?WT.mc_id=academic-79297-sagibbon" target="_blank">VS Code Marketplace</a> you can browse the complete collection to find the exact language, linter, debuggers, and more that you need for your project.
+
+Within this template we have preinstalled extensions for you to utilize within your Codespace. Here is how you can viewm and change which extensions your Codespaces environment starts with::
 
 1. Open file _.devcontainer/devcontainer.json_ and locate the following JSON element **extensions**
 
@@ -124,11 +126,11 @@ Your environment comes with preinstalled extensions. You can change which extens
    ]
    ```
  
-The string added is the unique identifier of <a href="https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow" target="_blank">indent-rainbow</a>, a popular extension to make indentation more readable. Adding "_oderwat.indent-rainbow_" identifier to the list lets Codespaces know that this extenion should be pre-installed upon startup. 
+The string added is the unique identifier of <a href="https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow?WT.mc_id=academic-79297-sagibbon" target="_blank">indent-rainbow</a>, a popular extension to make indentation more readable. Adding "_oderwat.indent-rainbow_" identifier to the list lets Codespaces know that this extenion should be pre-installed upon startup. 
 
 To find the unique identifier of an extension:
 
-* Navigate to the extension's web page, for example <a href="https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow" target="_blank">indent-rainbow</a>
+* Navigate to the extension's web page, for example <a href="https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow?WT.mc_id=academic-79297-sagibbon" target="_blank">indent-rainbow</a>
 * Locate the _Unique Identifier_ field under **More info** section on your right side.
 
 
