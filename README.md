@@ -31,24 +31,22 @@ A Codespace is a development environment that's hosted in the cloud that you can
 * Runs in the cloud.
 * Can be configured and customized.
 * Integrates with your repositories on GitHub.
-<br /><br />
-<details>
-   <summary><b>🎥 Watch the video tutorial to learn more about Codespaces</b></summary>
+
+> 🎥 **Watch the video tutorial to learn more about Codespaces** <br/>
+> <a href="https://aka.ms/CodespacesVideoTutorial" target="_blank">![image](https://img.youtube.com/vi/ozuDPmcC1io/0.jpg)</a>
    
-   <a href="https://aka.ms/CodespacesVideoTutorial" target="_blank">[![Codespaces Tutorial](https://img.youtube.com/vi/ozuDPmcC1io/0.jpg)]</a>
-</details>
+   
+### Customization
 
-## Customization
+You can customize your project for GitHub Codespaces by committing configuration files to your repository (often known as Configuration-as-Code), which creates a repeatable Codespace configuration for all users of your project. You can configure things like:
 
-You can customize your project for GitHub Codespaces by committing configuration files to your repository (often known as Configuration-as-Code), which creates a repeatable Codespace configuration for all users of your project.
+  * Extensions: You can specify what Visual Studio Code extensions should be preinstalled
+  * Dotfiles and settings
+  * Operating system libraries and dependencies
 
-You can configure things like:
+> 💡 Learn more here, <a href="https://docs.github.com/en/codespaces/customizing-your-codespace/personalizing-github-codespaces-for-your-account" target="_blank">docs.github.com/en/codespaces/customizing-your-codespace/personalizing-github-codespaces-for-your-account</a>
 
-* Extensions: You can specify what Visual Studio Code extensions should be preinstalled
-* Dotfiles and settings
-* Operating system libraries and dependencies
-
-> 💡 Learn more here, <https://docs.github.com/en/codespaces/customizing-your-codespace/personalizing-github-codespaces-for-your-account>
+<br />
 
 ## 🗃️ Codespaces JavaScript template
 
@@ -68,6 +66,8 @@ We set this template to demonstrate a web application using the <a href="https:/
 We've included the bare minimum file structure for a working application, so you have immediate ability to customize. Also included is a sample component (Header) to demonstrate how to incorporate components into your application. 
 
 The template uses <a href="https://parceljs.org/" target="_blank">Parcel</a> because it's regarded one of the eaisest to use, with limited configuration. You can of course extend or replace this.
+
+![image](https://user-images.githubusercontent.com/82035/195201984-2ca8f38b-c834-4b94-a69a-5a727aaf90eb.png)
 
 ## 🚀 Run this template
 
@@ -93,13 +93,15 @@ When the web application is started you will see a prompt telling you it started
 > If you are using Edge or Chrome you will see an option to install the Codespaces app when you launch your Codespace. The Codespaces app let's you launch your Codesapce within the app so you can work outside of the browser.  Look for the app icon and install pop-up to try it out.
 
 
-## ✨ Customize the Codespace
+## ✨ Customize your Codespace
 
 This template is intended to be fully customizable for your particular Web Development teaching needs. Here are three different challenge scenarios you are likely to want to do:
 
-1. Add an extension
-2. Change to a different frontend web framework
-3. Update the version of Node.js
+  1. Add an extension
+  2. Change to a different frontend web framework
+  3. Update the version of Node.js
+
+  > 💡 Learn more here, <https://docs.github.com/en/codespaces/customizing-your-codespace/personalizing-github-codespaces-for-your-account>
 
 ### Step 1: Add an extension
 
