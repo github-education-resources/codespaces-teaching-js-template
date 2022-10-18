@@ -69,6 +69,8 @@ The template uses [Parcel](https://parceljs.org/) because it's regarded one of t
 
 ![image](https://user-images.githubusercontent.com/82035/195201984-2ca8f38b-c834-4b94-a69a-5a727aaf90eb.png)
 
+<br />
+
 ## 🚀 Run this template
 
 To run what's in this repository, you need to first start a Codespaces instance.
@@ -83,15 +85,13 @@ To run what's in this repository, you need to first start a Codespaces instance.
 
     <img src="https://user-images.githubusercontent.com/82035/194710065-92f8c325-6f57-4c77-88d7-da8db3c235e9.png" alt="Codespace initializing" style="width: 600px;"/>
 
-When complete you will see your Codespace load with a terminal section at the bottom. Here you will see `npm install` executing. When complete you will return to the terminal prompt where you can run the web application by executing: `npm run start` 
+1. When complete you will see your Codespace load with a terminal section at the bottom. Here you will see `npm install` executing. When complete you will return to the terminal prompt where you can run the web application by executing: `npm run start` 
 
-When the web application is started you will see a prompt telling you it started successfully on port 1234, and you can open that site within your browser:
+   When the web application is started you will see a prompt telling you it started successfully on port 1234, and you can open that site within your browser:
   
    <img src="https://user-images.githubusercontent.com/82035/194709984-7e01f9db-df3e-41dc-bc1d-ce38b16b812d.png" alt="Web application started on port 1234" style="width: 340px;"/>
 
-> ###### Codespaces browser app 
-> If you are using Edge or Chrome you will see an option to install the Codespaces app when you launch your Codespace. The Codespaces app let's you launch your Codesapce within the app so you can work outside of the browser.  Look for the app icon and install pop-up to try it out.
-
+<br />
 
 ## ✨ Customize your Codespace
 
@@ -183,12 +183,21 @@ Reminder: When you change any configuration on the json, a box will appear after
 
 Click on rebuild. Wait for your codespace to rebuild the VS Code environment.
 
+<br />
 
-## 📚 Learn more
+## 📚 Resources
 
 * [GitHub Codespaces docs overview](https://docs.github.com/en/codespaces/overview)
 * [GitHub Codespaces docs quickstart](https://docs.github.com/en/codespaces/getting-started/quickstart)
-* [Use dev containers locally](https://github.com/microsoft/vscode-remote-try-node)
+* [Use dev containers locally with VS Code and Docker](https://github.com/microsoft/vscode-remote-try-node#vs-code-dev-containers)
+
+> #### Codespaces Browser App
+>
+> If you are using Edge or Chrome you will see an option to install the Codespaces app when you launch your Codespace. The Codespaces app let's you launch your Codesapce within the app so you can work outside of the browser.  Look for the app icon and install pop-up to try it out.
+>
+> <img src="https://user-images.githubusercontent.com/82035/196431310-806a36ca-f122-4739-83f6-79afa1543e7c.png" alt="Web application started on port 1234" style="width: 800px;"/>
+
+<br />
 
 ### 🔎 Found an issue or have an idea for improvement? 
 Help us make this template repository better by [letting us know and opening an issue!](/../../issues/new). 
