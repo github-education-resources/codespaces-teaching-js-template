@@ -4,14 +4,16 @@
 
 _Extend and use for your Web Development lessons in minutes._
 
-With this JavaScript Codespace template you can immediately create a normalized environment to teach or learn web development. This enables you to focus on the web development content you are teaching, and let Codespaces handle the environment setup for you.
+This JavaScript Codespace template provides you a normalized environment for you to build your class on. No setup time needed from you or your students, allowing you to focus on the content and lessons.
 
-* **Who is this for?** Educators of all levels, and those looking for a great template to build a web app.
-* **How much experience do students need?** Zero. This template is built with basic elements complete with comments so it can be used in beginner to advanced lessons.
-* **Can I use this template for other Web Frameworks?** Absolutely. This template uses React as an example, but instructions are included in this document to help you use this template with your web framework.
-* **Prerequisites:** None. This template will provide a working and deployable web app you can immediately extend for your needs.
+* **Who is this for?** _Educators of all levels_.
+* **How much experience do students need?** _Zero_. This template is built with basic elements complete with comments so it can be used in beginner to advanced lessons.
+* **Can I use this template for other Web Frameworks?** _Absolutely_. This template uses React as an example, but [instructions are included in this document](https://github.com/microsoft/codespaces-teaching-template-js#step-2-change-to-a-different-frontend-web-framework) to help you use this template with your web framework.
+* **Prerequisites:** _None_. This template will provide a working and deployable web app you can immediately extend for your needs.
 
-## What is GitHub Codespace and how can I use it in my teaching?
+![JavaScript Codespaces teaching template](/__images__/js-teaching-template-start.gif "JavaScript Codespaces teaching template")
+
+## 🧑‍🏫 What is GitHub Codespace and how can I use it in my teaching?
 
 A Codespace is a development environment that's hosted in the cloud that you can configure.
 
@@ -27,7 +29,7 @@ A Codespace is a development environment that's hosted in the cloud that you can
  
 ### Why use it
 
-* Repeatable environment offering a zero-config experience.
+* Avoid environment setup time for you and your students.
 * Runs in the cloud.
 * Can be configured and customized.
 * Integrates with your repositories on GitHub.
@@ -35,14 +37,15 @@ A Codespace is a development environment that's hosted in the cloud that you can
 > 🎥 **Watch the video tutorial to learn more about Codespaces** <br/>
 > <a href="https://aka.ms/CodespacesVideoTutorial">![image](https://img.youtube.com/vi/ozuDPmcC1io/0.jpg)</a>
    
-   
-### Customization
+### Customization for your lessons
 
 You can customize your project for GitHub Codespaces by committing configuration files to your repository (often known as Configuration-as-Code), which creates a repeatable Codespace configuration for all users of your project. You can configure things like:
 
-  * Extensions: You can specify what Visual Studio Code extensions should be preinstalled
-  * Dotfiles and settings
-  * Operating system libraries and dependencies
+* Extensions: You can specify what Visual Studio Code extensions should be preinstalled
+* Dotfiles and settings
+* Operating system libraries and dependencies
+
+This allows you to configure the exact Codespace environment needed for your lessons, and know that all your students will have the exact same project environment. _No class time needed for setup_.
 
 > 💡 Learn more here, [docs.github.com/en/codespaces/customizing-your-codespace/personalizing-github-codespaces-for-your-account](https://docs.github.com/en/codespaces/customizing-your-codespace/personalizing-github-codespaces-for-your-account)
 
