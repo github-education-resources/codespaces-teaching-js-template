@@ -148,22 +148,34 @@ A linter is a tool that helps improve quality and consistency of code. This proj
 
 To get you started we included some basic linter settings typically found in JavaScript, and React applications. Including extensions for [Prettier](https://prettier.io/) (for code formatting rules), and web accessibility with [eslint-plugin-jsx-a11y](https://github.com/jsx-eslint/eslint-plugin-jsx-a11y).
 
-Let's now update the linter rules to require [prop types](https://reactjs.org/docs/typechecking-with-proptypes.html) be defined on all React components. This will require your students to define the all incoming properties to a component with the name and type. For example, if `Header` accepted a property for a title to display, it's `propTypes` would be defined as:
-    ```javascript
-    Header.propTypes = {
-      title: PropTypes.string
-    };
-    ```
-
-You can then add a title prop to `Header` and see your new rule in action:
-
-To set the linter rule to require prop types be defined for all compoents, open the `.eslintrc` file. Within the `rules` item add: `"react/prop-types": 1`. Your ESLint rules should then be:
+Let's now update the linter rules to check for [prop types](https://reactjs.org/docs/typechecking-with-proptypes.html) to be defined on all React components. To set this linter rule, open the `.eslintrc` file. Within the `rules` item add: `"react/prop-types": "warn"`. Your ESLint rules should then be:
     ```javascript
    "rules": {
-       "prettier/prettier": "warn",
-       "react/prop-types": 1
+       "prettier/prettier": ["warn", { "endOfLine": "auto" }],
+       "react/prop-types": "warn"
    }
     ```
+_Note: possible values to set a rule to are "off", "warn" and "error". When set to "warn" student will ne notified of issue, but not required to resolve. Set to "error" will require a student to resolve that linter issue._
+    
+With that in place, all incoming properties to a component will need to be definied with the name and type or the student will see a warning. You can then add a title prop to `Header` and see your new rule in action:
+
+<img src="https://user-images.githubusercontent.com/82035/198326157-3f6e28b4-d724-4725-b5ed-5331d8c17db7.png" alt="Header component with title prop and linter error" style="width: 600px" />
+
+To resolve the prop types wanring in this example,  you would need to import 'PropTypes` and then define the `propTypes` for `Header`, giveng you:
+```javascript
+import React from "react";
+import PropTypes from "prop-types";
+
+const Header = ({ title }) => {
+  return <h1>Educator React Codespaces JS Template - {title}</h1>;
+};
+
+Header.propTypes = {
+  title: PropTypes.string,
+};
+
+export default Header;
+```
 
 ### Step 3: Update the version of Node.js
 
