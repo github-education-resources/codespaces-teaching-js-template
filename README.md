@@ -39,7 +39,7 @@ A Codespace is a development environment that's hosted in the cloud that you can
    
 ### Customization for your lessons
 
-You can customize your project for GitHub Codespaces by committing configuration files to your repository (often known as Configuration-as-Code), which creates a repeatable Codespace configuration for all users of your project. You can configure things like:
+When using this template project, you can customize the GitHub Codespaces to meet your lesson needs by committing configuration files to your repository (often known as Configuration-as-Code). This creates a repeatable Codespace configuration for **all** users of your project. You can configure things like:
 
 * Extensions: You can specify what Visual Studio Code extensions should be preinstalled
 * Dotfiles and settings
@@ -100,9 +100,9 @@ To run what's in this repository, you need to first start a Codespaces instance.
 
 This template is intended to be fully customizable for your particular Web Development teaching needs. Here are three different challenge scenarios you are likely to want to do:
 
-  1. Add an extension
-  2. Change to a different frontend web framework
-  3. Update the version of Node.js
+  1. [Add an extension](#step-1-add-an-extension)
+  2. [Update linter configuration](#step-2-update-linter-configuration)
+  3. [Update the version of Node.js](#step-3-update-the-version-of-nodejs)
 
   > 💡 Learn more here, [docs.github.com/en/codespaces/customizing-your-codespace/personalizing-github-codespaces-for-your-account](https://docs.github.com/en/codespaces/customizing-your-codespace/personalizing-github-codespaces-for-your-account)
 
@@ -142,27 +142,28 @@ To find the unique identifier of an extension:
 * Navigate to the extension's web page, for example [indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow?WT.mc_id=academic-79297-sagibbon)
 * Locate the _Unique Identifier_ field under **More info** section on your right side.
 
+### Step 2: Update linter configuration
 
-### Step 2: Change to a different frontend web framework
+A linter is a tool that helps improve quality and consistency of code. This project comes configured with [ESLint](https://eslint.org/).
 
-At the core of this template app is [Node.js](https://nodejs.org/). On top of a Node.js base app you can utilize multiple Web frameworks to create an [Express](http://expressjs.com/) backend application. 
+To get you started we included some basic linter settings typically found in JavaScript, and React applications. Including extensions for [Prettier](https://prettier.io/) (for code formatting rules), and web accessibility with [eslint-plugin-jsx-a11y](https://github.com/jsx-eslint/eslint-plugin-jsx-a11y).
 
-To get started customizing for your needs:
+Let's now update the linter rules to require [prop types](https://reactjs.org/docs/typechecking-with-proptypes.html) be defined on all React components. This will require your students to define the all incoming properties to a component with the name and type. For example, if `Header` accepted a property for a title to display, it's `propTypes` would be defined as:
+    ```javascript
+    Header.propTypes = {
+      title: PropTypes.string
+    };
+    ```
 
-1. Open the repository you created from this template in Codespaces. 
-1. Remove the packages listed in `dependencies` and `devDependencies` from `package.json` that you will not be using.
-1. In the terminal  within your Codespace, run `npm install` to clear the removed packages.
-1. You can now install the packages for the project needed for your lesson through the recommended paths provided through the framework documentation.
+You can then add a title prop to `Header` and see your new rule in action:
 
-Once you have your updates packages you will then need to:
-
-* Update/Remove the source files referencing React.
-* Update the ESLint configuration to match your desired Web framework.
-* Update any Prettier configuration, if required.
-
-In some cases, the initialization of a new framework may overwrite existing `/src` files, not a problem. The Codespace is set to run `npm install`on start. As long as those are still valid for your framework Codespace will continue to work as expected.
-
-If running `npm install` in the root of your Codespace are no longer valid, open `/.devcontainer/devcontainer.json` and update the `postCreateCommand` for what you require for your updated framework and application.
+To set the linter rule to require prop types be defined for all compoents, open the `.eslintrc` file. Within the `rules` item add: `"react/prop-types": 1`. Your ESLint rules should then be:
+    ```javascript
+   "rules": {
+       "prettier/prettier": "warn",
+       "react/prop-types": 1
+   }
+    ```
 
 ### Step 3: Update the version of Node.js
 
