@@ -149,13 +149,15 @@ A linter is a tool that helps improve quality and consistency of code. This proj
 To get you started we included some basic linter settings typically found in JavaScript, and React applications. Including extensions for [Prettier](https://prettier.io/) (for code formatting rules), and web accessibility with [eslint-plugin-jsx-a11y](https://github.com/jsx-eslint/eslint-plugin-jsx-a11y).
 
 Let's now update the linter rules to check for [prop types](https://reactjs.org/docs/typechecking-with-proptypes.html) to be defined on all React components. To set this linter rule, open the `.eslintrc` file. Within the `rules` item add: `"react/prop-types": "warn"`. Your ESLint rules should then be:
-    ```javascript
-   "rules": {
-       "prettier/prettier": ["warn", { "endOfLine": "auto" }],
-       "react/prop-types": "warn"
-   }
-    ```
-_Note: possible values to set a rule to are "off", "warn" and "error". When set to "warn" student will ne notified of issue, but not required to resolve. Set to "error" will require a student to resolve that linter issue._
+
+```javascript
+"rules": {
+   "prettier/prettier": ["warn", { "endOfLine": "auto" }],
+   "react/prop-types": "warn"
+}
+```
+
+> _Note: possible values to set a rule to are "off", "warn" and "error". When set to "warn" student will ne notified of issue, but not required to resolve. Set to "error" will require a student to resolve that linter issue._
     
 With that in place, all incoming properties to a component will need to be definied with the name and type or the student will see a warning. You can then add a title prop to `Header` and see your new rule in action:
 
