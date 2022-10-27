@@ -148,7 +148,7 @@ A linter is a tool that helps improve quality and consistency of code. This proj
 
 To get you started we included some basic linter settings typically found in JavaScript, and React applications. Including extensions for [Prettier](https://prettier.io/) (for code formatting rules), and web accessibility with [eslint-plugin-jsx-a11y](https://github.com/jsx-eslint/eslint-plugin-jsx-a11y).
 
-Let's now update the linter rules to check for [prop types](https://reactjs.org/docs/typechecking-with-proptypes.html) to be defined on all React components. To set this linter rule, open the `.eslintrc` file. Within the `rules` item add: `"react/prop-types": "warn"`. Your ESLint rules should then be:
+Let's now update the linter rules to check for [prop types](https://reactjs.org/docs/typechecking-with-proptypes.html) to be defined on all React components. To set this linter rule, open the `.eslintrc` file. Within the `rules` object add: `"react/prop-types": "warn"`. Your ESLint rules should then be:
 
 ```javascript
 "rules": {
