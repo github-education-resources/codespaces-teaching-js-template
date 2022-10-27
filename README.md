@@ -163,7 +163,7 @@ With that in place, all incoming properties to a component will need to be defin
 
 <img src="https://user-images.githubusercontent.com/82035/198326157-3f6e28b4-d724-4725-b5ed-5331d8c17db7.png" alt="Header component with title prop and linter error" style="width: 600px" />
 
-To resolve the prop types wanring in this example,  you would need to import 'PropTypes` and then define the `propTypes` for `Header`, giveng you:
+To resolve the prop types wanring in this example,  you would need to import `PropTypes` and then define the `propTypes` for `Header`, giving you:
 ```javascript
 import React from "react";
 import PropTypes from "prop-types";
