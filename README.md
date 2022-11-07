@@ -6,7 +6,7 @@ _Extend and use for your Web Development lessons in minutes._
 
 This JavaScript Codespace template provides you a normalized environment for you to build your class on. No setup time needed from you or your students, allowing you to focus on the content and lessons.
 
-* **Who is this for?** _Educators of all levels_.
+* **Who is this for?** _Educators of all levels_. 
 * **How much experience do students need?** _Zero_. This template is built with basic elements complete with comments so it can be used in beginner to advanced lessons.
 * **Can I use this template for other Web Frameworks?** _Absolutely_. This template uses React as an example, but [instructions are included in this document](https://github.com/microsoft/codespaces-teaching-template-js#step-2-change-to-a-different-frontend-web-framework) to help you use this template with your web framework.
 * **Prerequisites:** _None_. This template will provide a working and deployable web app you can immediately extend for your needs.
@@ -15,7 +15,9 @@ This JavaScript Codespace template provides you a normalized environment for you
 
 ## 🧑‍🏫 What is GitHub Codespace and how can I use it in my teaching?
 
-A Codespace is a development environment that's hosted in the cloud that you can configure.
+A Codespace is a development environment that's hosted in the cloud that you can configure. The Codespaces Education benefit gives Global Campus teachers a free monthly allowance of GitHub Codespaces hours to use in [GitHub Classroom](classroom.github.com). Learn more [here](https://docs.github.com/en/education/manage-coursework-with-github-classroom/integrate-github-classroom-with-an-ide/using-github-codespaces-with-github-classroom) about Using GitHub Codespaces with GitHub Classroom.
+
+If you are not already a Global Campus teacher, apply [here](https://education.github.com/discount_requests/pack_application) or for more information, see [Apply to GitHub Global Campus as a teacher](https://docs.github.com/en/education/explore-the-benefits-of-teaching-and-learning-with-github-education/github-global-campus-for-teachers/apply-to-github-global-campus-as-a-teacher).
 
 
 ### Quick Start
@@ -39,7 +41,7 @@ A Codespace is a development environment that's hosted in the cloud that you can
    
 ### Customization for your lessons
 
-When using this template project, you can customize the GitHub Codespaces to meet your lesson needs by committing configuration files to your repository (often known as Configuration-as-Code). This creates a repeatable Codespace configuration for **all** users of your project. You can configure things like:
+When using this template project, you can customize the GitHub Codespaces to meet your lesson needs by committing configuration files to your repository (often known as Configuration-as-Code). You can then use this template to create assignment in [GitHub Classroom](classroom.github.com). This creates a repeatable Codespace configuration for **all** students of your project. You can configure things like:
 
 * Extensions: You can specify what Visual Studio Code extensions should be preinstalled
 * Dotfiles and settings
@@ -208,6 +210,7 @@ Click on rebuild. Wait for your codespace to rebuild the VS Code environment.
 * [GitHub Codespaces docs overview](https://docs.github.com/en/codespaces/overview)
 * [GitHub Codespaces docs quickstart](https://docs.github.com/en/codespaces/getting-started/quickstart)
 * [Use dev containers locally with VS Code and Docker](https://github.com/microsoft/vscode-remote-try-node#vs-code-dev-containers)
+* [Using GitHub Codespaces with GitHub Classroom](https://docs.github.com/en/education/manage-coursework-with-github-classroom/integrate-github-classroom-with-an-ide/using-github-codespaces-with-github-classroom)
 
 > #### Codespaces Browser App
 >
