@@ -137,11 +137,11 @@ Within this template we have preinstalled extensions for you to utilize within y
    ]
    ```
  
-The string added is the unique identifier of [indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow?WT.mc_id=academic-79297-sagibbon), a popular extension to make indentation more readable. Adding "_oderwat.indent-rainbow_" identifier to the list lets Codespaces know that this extenion should be pre-installed upon startup. 
+The string added is the unique identifier of [indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow&WT.mc_id=academic-79297-sagibbon), a popular extension to make indentation more readable. Adding "_oderwat.indent-rainbow_" identifier to the list lets Codespaces know that this extenion should be pre-installed upon startup. 
 
 To find the unique identifier of an extension:
 
-* Navigate to the extension's web page, for example [indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow?WT.mc_id=academic-79297-sagibbon)
+* Navigate to the extension's web page, for example [indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow&WT.mc_id=academic-79297-sagibbon)
 * Locate the _Unique Identifier_ field under **More info** section on your right side.
 
 ### Step 2: Update linter configuration
