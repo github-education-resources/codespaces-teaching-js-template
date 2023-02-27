@@ -81,8 +81,8 @@ The template uses [Parcel](https://parceljs.org/) because it's regarded one of t
 To run what's in this repository, you need to first start a Codespaces instance.
 
 1. Create a repository from this template. Use this [create repo link](https://github.com/microsoft/codespaces-teaching-template-js/generate). Select the repository owner, provide a name, a description if you'd like and if you'd like the new repository to be public or private.
-2. Navigate to the main page of the newly created repository.
-3. Under the repository name, use the Code drop-down menu, and in the Codespaces tab, select "Create codespace on main".
+1. Navigate to the main page of the newly created repository.
+1. Under the repository name, use the Code drop-down menu, and in the Codespaces tab, select "Create codespace on main".
 
     <img src="https://docs.github.com/assets/cb-138303/images/help/codespaces/new-codespace-button.png" alt="Create Codespace" style="width: 270px;"/>
 
@@ -90,11 +90,11 @@ To run what's in this repository, you need to first start a Codespaces instance.
 
     <img src="https://user-images.githubusercontent.com/82035/194710065-92f8c325-6f57-4c77-88d7-da8db3c235e9.png" alt="Codespace initializing" style="width: 600px;"/>
 
-1. When complete you will see your Codespace load with a terminal section at the bottom. Here you will see `npm install` executing. When complete you will return to the terminal prompt where you can run the web application by executing: `npm run start` 
+1. When complete you will see your Codespace load with a terminal section at the bottom. Codespaces will install all the required extensions in your container, followed by executing `npm install`. Once the package installs are completed, Codesaces will execute `npm start` to start your web application running within your Codespace.  
 
-   When the web application is started you will see a prompt telling you it started successfully on port 1234, and you can open that site within your browser:
+   When the web application has successfully started you will see a message in Termin that the server is running on port 1234 within your Codespace:
   
-   <img src="https://user-images.githubusercontent.com/82035/194709984-7e01f9db-df3e-41dc-bc1d-ce38b16b812d.png" alt="Web application started on port 1234" style="width: 340px;"/>
+   <img src="https://user-images.githubusercontent.com/82035/220460347-605293ba-d3d1-483a-8157-71eaabb7ef52.png" alt="Web application started on port 1234" style="width: 300px;"/>
 
 <br />
 
