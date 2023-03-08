@@ -63,7 +63,7 @@ The repository contains the following:
 * `.eslintrc`: Settings for [ESLint](https://eslint.org/) that is included for code consistency and quality.
 * `.prettierrc`: Settings for [Prettier](https://prettier.io/) that is used to format code.
 * `package.json` and `package-lock.json`: Define the project information for [Node.js](https://nodejs.org/), dependent packages and the versions needed of each. 
-* `sample_lesson.md`: A sample lesson you can build with Copilot to use this template.
+* `docs`: Sample lessons and tool quickstarts for you to use in your teaching.
 
 ### About the Web application (`/src` )
 
@@ -223,7 +223,7 @@ This template project gives you a base for you to build a customized lesson on. 
 
 ### Step 1: Write a lesson description
 
-For our sample lesson, we are going to use "Introduction to TypeScript" as our lesson topic. Open the [`sample_lesson.md`](./sample_lesson.md) file where you will see we have started you with the lesson title. 
+For our sample lesson, we are going to use "Introduction to TypeScript" as our lesson topic. Open the [`sample_lesson.md`](./docs/lessons/sample_lesson.md) file where you will see we have started you with the lesson title. 
 
 After the title, press enter two times to get a empty line and then the new line you are typing on (markdown likes some empty lines to render correctly). On this line, prompt Copilot with some on our lesson description. Start typing: _In this lesson_
 
