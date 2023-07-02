@@ -103,9 +103,9 @@ Para executar o que está neste repositório, você precisa primeiro iniciar uma
 
 Este modelo destina-se a ser totalmente personalizável para suas necessidades específicas de ensino de Desenvolvimento Web. Aqui estão três cenários de desafio diferentes que você provavelmente desejará fazer:
 
-  1. [Adicione uma extensão](#step-1-add-an-extension)
-  2. [Atualizar configuração do linter](#step-2-update-linter-configuration)
-  3. [Atualize a versão de Node.js](#step-3-update-the-version-of-nodejs)
+  1. [Adicione uma extensão](#etapa-1-adicionar-uma-extensão)
+  2. [Atualizar configuração do linter](#etapa-2-atualizar-configuração-linter)
+  3. [Atualize a versão de Node.js](#etapa-3-atualizar-a-versão-do-nodejs)
 
   > 💡 Saiba mais aqui, [docs.github.com/pt/codespaces/customizing-your-codespace/personalizing-github-codespaces-for-your-account](https://docs.github.com/pt/codespaces/customizing-your-codespace/personalizing-github-codespaces-for-your-account)
 
@@ -183,7 +183,7 @@ Header.propTypes = {
 export default Header;
 ```
 
-### Step 3: Atualize a versão do Node.js
+### Step 3: Atualizar a versão do Node.js
 
 Se você deseja alterar a versão do Node.js esse projeto está usando, siga essas etapas:
 
