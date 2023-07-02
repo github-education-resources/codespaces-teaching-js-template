@@ -105,7 +105,7 @@ Este modelo destina-se a ser totalmente personalizável para suas necessidades e
 
   1. [Adicionar uma extensão](#etapa-1-adicionar-uma-extensão)
   2. [Atualizar a configuração do linter](#etapa-2-atualizar-a-configuração-do-linter)
-  3. [Atualizar a versão do Node.js](#etapa-3-atualizar-a-versão-do-nodejs)
+  3. [Atualizar a versão do Node.js](#etapa-3-atualizar-a-versão-do-node.js)
 
   > 💡 Saiba mais aqui, [docs.github.com/pt/codespaces/customizing-your-codespace/personalizing-github-codespaces-for-your-account](https://docs.github.com/pt/codespaces/customizing-your-codespace/personalizing-github-codespaces-for-your-account)
 
@@ -183,7 +183,7 @@ Header.propTypes = {
 export default Header;
 ```
 
-### Step 3: Atualizar a versão do Node.js
+### Etapa 3: Atualizar a versão do Node.js
 
 Se você deseja alterar a versão do Node.js esse projeto está usando, siga essas etapas:
 
