@@ -111,7 +111,7 @@ Este modelo destina-se a ser totalmente personalizável para suas necessidades e
 
 ### Etapa 1: Adicionar uma extensão
 
-As extensões VS Code permitem adicionar funcionalidade à instância do VS Code para que você possa configurar para atender ao seu fluxo de trabalho de desenvolvimento específico. No [VS Code Marketplace](https://marketplace.visualstudio.com/VSCode?WT.mc_id=academic-79297-sagibbon) você pode navegar pela coleção completa para encontrar o idioma exato, linter, depuradores e muito mais que você precisa para o seu projeto.
+As extensões VS Code permitem adicionar funcionalidade à instância do VS Code para que você possa configurar para atender ao seu fluxo de trabalho de desenvolvimento específico. No [VS Code Marketplace](https://marketplace.visualstudio.com/VSCode?WT.mc_id=academic-79297-sagibbon) você pode navegar pela coleção completa para encontrar a linguagem exata, linter, depuradores e muito mais que você precisa para o seu projeto.
 
 Dentro deste modelo, temos extensões pré-instaladas para você utilizar dentro do seu Codespace. Veja como você pode exibir e alterar com quais extensões seu ambiente Codespaces começa:
 
@@ -138,7 +138,7 @@ Dentro deste modelo, temos extensões pré-instaladas para você utilizar dentro
    ]
    ```
 
-A cadeia de caracteres adicionada é o identificador exclusivo de indent-rainbow, uma extensão popular para tornar o recuo mais legível. Adicionar o identificador "oderwat.indent-rainbow" à lista permite que o Codespaces saiba que essa extensão deve ser pré-instalada na inicialização.
+A string adicionada é o identificador único de indent-rainbow, uma extensão popular para tornar a indentação mais legível. Adicionar o identificador "oderwat.indent-rainbow" à lista permite que o Codespaces saiba que esta extensão deve ser pré-instalada ao iniciar.
 
 Para localizar o identificador exclusivo de uma extensão:
 
@@ -185,7 +185,7 @@ export default Header;
 
 ### Step 3: Atualize a versão do Node.js
 
-Se você deseja alterar qual versão do Node.js esse projeto está usando, siga essas etapas:
+Se você deseja alterar a versão do Node.js esse projeto está usando, siga essas etapas:
 
 Abra *.devcontainer/devcontainer.json* e substitua a seguinte ação:
 
@@ -199,17 +199,17 @@ com a seguinte instrução:
 "VARIANT": "18.9-bullseye"
 ```
 
-Essa alteração usará Node.js 18.9 em vez de 16. A lista completa de todas as variantes Node.js disponíveis pode ser encontrada em [hub.docker.com/_/node](https://hub.docker.com/_/node)
+Essa alteração usará Node.js 18.9 em vez de 16. A lista completa de todas as versões Node.js disponíveis pode ser encontrada em [hub.docker.com/_/node](https://hub.docker.com/_/node)
 
-Lembrete: Quando você alterar qualquer configuração no json, uma caixa apareecerá após salvar.
+Lembrete: Quando você alterar qualquer configuração no json, uma caixa aparecerá após salvar.
 
-Clique em reconstruir. Aguarde até que seu espaço de código recrie o ambiente VS Code.
+Clique em Rebuild. Aguarde até que seu espaço de código recrie o ambiente VS Code.
 
 <br />
 
 ## 🤖 Criar uma lição
 
-Este modelo de projeto fornece uma base para você criar uma lição personalizada. Usanto o GitHub Copilot, vamos orientá-lo através da criação de uma lição de  exemplo[Typescript](https://www.typescriptlang.org/)  e um quiz que você pode usar para sua classe nas seguintes etapas
+Este modelo de projeto fornece uma base para você criar uma lição personalizada. Usando o GitHub Copilot, guiaremos você através da criação de um exemplo de lição e quiz em [Typescript](https://www.typescriptlang.org/) que você pode usar para sua classe nos seguintes passos:
 
 1. [Escreva uma descrição da lição](#step-1-write-a-lesson-description)
 1. [Adicione etapas à lição](#step-2-add-steps-to-lesson)
@@ -218,15 +218,15 @@ Este modelo de projeto fornece uma base para você criar uma lição personaliza
 
 > 👋 Obtendo acesso ao Copilot
 >
-> O GitHub Copilot é **GRATUITO** para estudantes e professores, [saiba mais aqui](https://education.github.com/pack/join). Siga [essas etapas](https://techcommunity.microsoft.com/t5/educator-developer-blog/step-by-step-setting-up-github-student-and-github-copilot-as-an/ba-p/3736279?WT.mc_id=academic-0000-sagibbon) para verificar sua associação de alunos ou professores e habilitar o Copilot gratuitamente.
+> O GitHub Copilot é **GRATUITO** para estudantes e professores, [saiba mais aqui](https://aka.ms/copilot-estudantes). Siga [essas etapas](https://techcommunity.microsoft.com/t5/educator-developer-blog/step-by-step-setting-up-github-student-and-github-copilot-as-an/ba-p/3736279?WT.mc_id=academic-0000-sagibbon) para verificar sua associação de alunos ou professores e habilitar o Copilot gratuitamente.
 
 <br/>
 
-### Etapa 1: Escreva uma descrição da lição
+### Etapa 1: Escrever uma descrição para lição
 
 Para nossa lição de exemplo, usaremos "Introdução ao TypeScript" como nosso tópico de lição. Abra o arquivo [`sample_lesson.md`](./docs/lessons/sample_lesson.md) onde você verá que começamos com o título da lição.
 
-Após o título, pressione Enter duas vezes para obter uma linha vazia e, em seguida, a nova linha na qual você está digitando (markdown gosta de algumas linhas vazias para renderizar corretamente). Nesta linha, avise o Copilot com alguns em nossa descrição da lição. Comece a digitar: _Nesta lição_
+Após o título, pressione Enter duas vezes para obter uma linha vazia e, em seguida, a nova linha na qual você está digitando (markdown gosta de algumas linhas vazias para renderizar corretamente). Nesta linha, certifique-se que o Copilot está habilitado, clicando no ícone da extensão. Comece a digitar: _Nesta lição_
 
 Ao começar a digitar, você verá o Copilot começar a sugerir algum texto. Selecione o texto sugerido pressionando `tab`. O Copilot adicionará o texto ao seu arquivo e solicitará a próxima linha. Continue digitando: _vamos aprender sobre_
 
@@ -254,7 +254,7 @@ Em uma nova linha, comece a digitar o seguinte e veja o que o Copilot irá suger
 ```markdown
 ## Etapas para começar
 
-1. Fork este repositório de modelos para sua própria conta do GitHub e abra-o no Codespaces.
+1. Estenda(fork) este repositório de modelos para sua própria conta do GitHub e abra-o no Codespaces.
 2. Instale o pacote TypeScript.
 3. Crie um arquivo de configuração TypeScript.
 4. Converta `index.js` em `index.tsx`.
@@ -264,7 +264,7 @@ Em uma nova linha, comece a digitar o seguinte e veja o que o Copilot irá suger
 8. Inicie uma discussão na guia Discussões deste repositório.
 ```
 
-_NOTA: Os passos acima são apenas um exemplo, seja criativo e torne-o seu! Empurre o Copilot ao longo do caminho para ajudar a construir seus passos de aula._
+_NOTA: Os passos acima são apenas um exemplo, seja criativo e faça com que seja seu próprio! Dê um empurrãozinho ao Copilot ao longo do caminho, inserindo mais informações, para ajudar a construir os passos da sua aula._
 
 <br/>
 
@@ -274,7 +274,7 @@ Agora que temos uma descrição da lição e etapas, vamos adicionar alguns desa
 
 Em uma nova linha, avise o Copilot com: ```## Code Challenges``` e veja o que o Copilot sugere para você.
 
-Como exemplo, digamos que queremos adicionar os desafios abaixo. O copiloto pode não acertar na primeira tentativa, mas podemos preencher alguns e ele começará a pegar o padrão e nos ajudar.
+Como exemplo, digamos que queremos adicionar os desafios abaixo. O Copilot pode não acertar na primeira tentativa, mas podemos preencher alguns e ele começará a pegar o padrão e nos ajudar.
 
 ```markdown
 ## Desafios de Código 
@@ -286,14 +286,14 @@ Como exemplo, digamos que queremos adicionar os desafios abaixo. O copiloto pode
 
 ### Etapa 4: Criar resumo e discussão
 
-Esta lição de exemplo ensinou os alunos sobre o TypeScript, fez com que eles bifurcassem um repositório de modelos, instalassem o TypeScript e concluíssem desafios do TypeScript. Para concluir esta lição, vamos resumir e fazer com que os alunos demonstrem seu aprendizado por meio de uma discussão na guia [Discussions](/../../discussions) deste repositório.
+Esta lição de exemplo ensinou os alunos sobre o TypeScript, fez com que eles estendessem um repositório de modelos, instalassem o TypeScript e concluíssem desafios do TypeScript. Para concluir esta lição, vamos resumir e fazer com que os alunos demonstrem seu aprendizado por meio de uma discussão na guia [Discussions](/../../discussions) deste repositório.
 
-Em uma nova linha, comece a solicitar o Copilot com:```## Summary``` e ele irá sugerir um resumo da lição para você.
+Em uma nova linha, comece a instruir o Copilot com:```## Resumo``` e ele irá sugerir um resumo da lição para você.
 
-Depois disso, em uma nova linha comece a solicitar o Copilot com:```## Discussion``` e ele começará a sugerir perguntas de discussão para seus alunos responderem.
+Depois disso, em uma nova linha comece a instruir o Copilot com:```## Discussão``` e ele começará a sugerir perguntas de discussão para seus alunos responderem.
 
 -----
-⭐ BONUS DO COPILOT ⭐
+⭐ BÔNUS DO COPILOT ⭐
 
 Se você quiser ver o Copilot em ação, pressione Enter após o resumo completo e veja o que o Copilot sugere ao lado para construir sua lição.
 
@@ -320,4 +320,4 @@ Tente fazer com que ele crie uma lista de recursos para seus alunos. Ou que tal 
 <br />
 
 ### 🔎 Encontrou um problema ou tem uma ideia de melhoria? 
-Ajude-nos a melhorar este modelo de repositório, [informando-nos e abrindo um problema!](/../../issues/new). 
+Ajude-nos a melhorar este modelo de repositório, [informando-nos e abrindo um problema!](https://github.com/education/codespaces-teaching-js-template/issues/new). 
