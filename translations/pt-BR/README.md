@@ -1,13 +1,13 @@
 [![Abrir em GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=526680454)
 
-# Ensine JavaScript no Codespace 
+# Ensine JavaScript no Codespaces 
 
 _Amplie e use para suas aulas de Desenvolvimento Web em minutos._
 
-Este modelo JavaScript Codespace fornece um ambiente normalizado para você construir sua classe. Não é necessário tempo de configuração seu ou de seus alunos, permitindo que você se concentre no conteúdo e nas lições.
+Este modelo de JavaScript no Codespace fornece um ambiente normalizado para você construir um projeto com sua turma. Não é necessário tempo de configuração seu ou de seus alunos, permitindo que você se concentre no conteúdo e nas lições.
 
 * **Para quem é isso?** _Educadores de todos os níveis_. 
-* **De quanta experiência os alunos precisam?** _Zero_. Este modelo é construído com elementos básicos completos com comentários para que possa ser usado em aulas de iniciante a avançado.
+* **De quanta experiência os alunos precisam?** _Nenhuma_. Este modelo é construído com elementos básicos completos com comentários para que possa ser usado em aulas de iniciante a avançado.
 * **Posso usar este modelo para outros Web Frameworks?** _Com certeza_. Este modelo usa o React como exemplo, mas [as instruções estão incluídas neste documento](https://github.com/microsoft/codespaces-teaching-template-js#step-2-change-to-a-different-frontend-web-framework) para ajudá-lo a usar este modelo com seu web framework.
 * **Pré-requisitos:** _Nenhum_. Este modelo fornecerá um aplicativo da Web funcional e implementável que você pode estender imediatamente para suas necessidades de ensino com [GitHub Copilot](https://github.com/features/copilot/) para ajudar.
 
@@ -29,7 +29,7 @@ Se você ainda não é professor do Global Campus, Inscreva-se [aqui](https://ed
 1. Uma vez criado o repositório, clique no botão **Código**
 1. Clique no botão **Create Codespace on main**
 
-### Por que usá-lo
+### Por que usá-lo:
 
 * Evite o tempo de configuração do ambiente para você e seus alunos.
 * Executa na nuvem.
@@ -81,9 +81,9 @@ O modelo usa [Parcel](https://parceljs.org/) porque é considerado um dos mais f
 
 Para executar o que está neste repositório, você precisa primeiro iniciar uma instância do Codespaces.
 
-1. Crie um repositório a partir deste modelo. Use isto [ link de criação de repositóriok](https://github.com/microsoft/codespaces-teaching-template-js/generate). Selecione o proprietário do repositório, forneça um nome, uma descrição se desejar e se desejar que o novo repositório seja público ou privado.
+1. Crie um repositório a partir deste modelo. Use isto [link de criação de repositório](https://github.com/microsoft/codespaces-teaching-template-js/generate). Selecione o proprietário do repositório, forneça um nome, uma descrição se desejar e se desejar que o novo repositório seja público ou privado.
 1. Navegue até a página principal do repositório recém-criado.
-1. Sob o nome do repositório, use o menu suspenso Código e, na guia Codespaces, selecione "Criar codespace no principal".
+1. Sob o nome do repositório, use o Menu Code(Código) e, na guia Codespaces, selecione "Criar codespace no principal".
 
     <img src="https://docs.github.com/assets/cb-138303/images/help/codespaces/new-codespace-button.png" alt="Criar codespace" style="width: 270px;"/>
 
@@ -91,9 +91,9 @@ Para executar o que está neste repositório, você precisa primeiro iniciar uma
 
     <img src="https://user-images.githubusercontent.com/82035/194710065-92f8c325-6f57-4c77-88d7-da8db3c235e9.png" alt="Codespace inicializando" style="width: 600px;"/>
 
-1. Quando concluído, você verá o carregamento do Codespace com uma seção de terminal na parte inferior. Codespaces instalará todas as extensões necessárias em seu contêiner, seguido pela execução `npm install`. Assim que as instalações do pacote forem concluídas, os Codesaces executarão `npm start` para iniciar seu aplicativo da Web em execução no seu Codespace.
+1. Quando concluído, você verá o carregamento do Codespaces com uma seção de terminal na parte inferior. O Codespaces irá instalar todas as extensões necessárias em seu contêiner, seguido pela execução `npm install`. Assim que as instalações do pacote forem concluídas, os Codespaces executarão `npm start` para iniciar seu aplicativo da Web em execução no seu Codespace.
 
-  Quando o aplicativo da web for iniciado com sucesso, você verá uma mensagem no Termin informando que o servidor está sendo executado na porta 1234 em seu Codespace:
+  Quando o aplicativo da web for iniciado com sucesso, você verá uma mensagem no Terminal informando que o servidor está sendo executado na porta 1234 em seu Codespace:
 
    <img src="https://user-images.githubusercontent.com/82035/220460347-605293ba-d3d1-483a-8157-71eaabb7ef52.png" alt="Aplicativo da Web iniciado na porta 1234" style="width: 300px;"/>
 
@@ -203,7 +203,7 @@ Essa alteração usará Node.js 18.9 em vez de 16. A lista completa de todas as 
 
 Lembrete: Quando você alterar qualquer configuração no json, uma caixa aparecerá após salvar.
 
-Clique em Rebuild. Aguarde até que seu espaço de código recrie o ambiente VS Code.
+Clique em Rebuild(em português, "Reconstruir"). Aguarde até que seu espaço de código recrie o ambiente VS Code.
 
 <br />
 
