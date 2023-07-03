@@ -105,7 +105,7 @@ Este modelo destina-se a ser totalmente personalizável para suas necessidades e
 
   1. [Adicionar uma extensão](#etapa-1-adicionar-uma-extensão)
   2. [Atualizar a configuração do linter](#etapa-2-atualizar-a-configuração-do-linter)
-  3. [Atualizar a versão do Node.js](#etapa-3-atualizar-a-versão-do-node-js)
+  3. [Atualizar a versão do Node.js](#etapa-3-atualizar-a-versão-do-nodejs)
 
   > 💡 Saiba mais aqui, [docs.github.com/pt/codespaces/customizing-your-codespace/personalizing-github-codespaces-for-your-account](https://docs.github.com/pt/codespaces/customizing-your-codespace/personalizing-github-codespaces-for-your-account)
 
@@ -211,10 +211,10 @@ Clique em Rebuild(em português, "Reconstruir"). Aguarde até que seu espaço de
 
 Este modelo de projeto fornece uma base para você criar uma lição personalizada. Usando o GitHub Copilot, guiaremos você através da criação de um exemplo de lição e quiz em [Typescript](https://www.typescriptlang.org/) que você pode usar para sua classe nos seguintes passos:
 
-1. [Escreva uma descrição da lição](#step-1-write-a-lesson-description)
-1. [Adicione etapas à lição](#step-2-add-steps-to-lesson)
-1. [Adicione desafios de código](#step-3-add-code-challenges)
-1. [Crie um quiz](#step-4-create-a-quiz)
+1. [Escrever uma descrição da lição](#etapa-1-escrever-uma-descrição-para-lição)
+1. [Adicionar etapas à lição](#etapa-2-adicionar-etapas-à-lição)
+1. [Adicionar desafios de código](#etapa-3-adicionar-desafios-de-código)
+1. [Criar um quiz](#etapa-4-criar-resumo-e-discussão)
 
 > 👋 Obtendo acesso ao Copilot
 >
