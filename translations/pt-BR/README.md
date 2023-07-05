@@ -41,7 +41,7 @@ Se você ainda não é professor do Global Campus, Inscreva-se [aqui](https://ed
 
 ### Personalização para suas aulas
 
-Ao usar este Modelo de projeto, você pode personalizar os Codespaces do GitHub para atender às suas necessidades de aula, enviando arquivos de configuração para o seu repositório (geralmente conhecido como configuração como código). Você pode então usar este modelo para criar atribuição em [GitHub Classroom](classroom.github.com). Isso cria uma configuração de Codespace repetível para **todos** os alunos do seu projeto. Você pode configurar coisas como:
+Ao usar este Modelo de projeto, você pode personalizar os Codespaces do GitHub para atender às suas necessidades de aula, enviando arquivos de configuração para o seu repositório (geralmente conhecido como Configuration-as-Code ou, em português, Configuração-como-Código). Você pode então usar este modelo para criar atribuição em [GitHub Classroom](classroom.github.com). Isso cria uma configuração de Codespace repetível para **todos** os alunos do seu projeto. Você pode configurar coisas como:
 
 * Extensões: você pode especificar quais extensões do Visual Studio Code devem ser pré-instaladas.
 * Dotfiles e configurações.
@@ -85,7 +85,7 @@ Para executar o que está neste repositório, você precisa primeiro iniciar uma
 1. Navegue até a página principal do repositório recém-criado.
 1. Sob o nome do repositório, use o Menu Code(Código) e, na guia Codespaces, selecione "Criar codespace no principal".
 
-    <img src="https://docs.github.com/assets/cb-138303/images/help/codespaces/new-codespace-button.png" alt="Criar codespace" style="width: 270px;"/>
+   ![1_nfr02raZ86kskqTNC9jPFg](https://github.com/rogergcorrea27/codespaces-teaching-js-template/assets/81336896/906b59da-267a-47e9-b9b7-26056c437e27)
 
 1. Aguarde enquanto o GitHub inicializa o Codespace.
 
@@ -93,7 +93,7 @@ Para executar o que está neste repositório, você precisa primeiro iniciar uma
 
 1. Quando concluído, você verá o carregamento do Codespaces com uma seção de terminal na parte inferior. O Codespaces irá instalar todas as extensões necessárias em seu contêiner, seguido pela execução `npm install`. Assim que as instalações do pacote forem concluídas, os Codespaces executarão `npm start` para iniciar seu aplicativo da Web em execução no seu Codespace.
 
-  Quando o aplicativo da web for iniciado com sucesso, você verá uma mensagem no Terminal informando que o servidor está sendo executado na porta 1234 em seu Codespace:
+  Quando o aplicativo da web for iniciado com sucesso, você verá uma mensagem no Terminal, informando que o servidor está sendo executado na porta 1234 em seu Codespace:
 
    <img src="https://user-images.githubusercontent.com/82035/220460347-605293ba-d3d1-483a-8157-71eaabb7ef52.png" alt="Aplicativo da Web iniciado na porta 1234" style="width: 300px;"/>
 
@@ -203,7 +203,7 @@ Essa alteração usará Node.js 18.9 em vez de 16. A lista completa de todas as 
 
 Lembrete: Quando você alterar qualquer configuração no json, uma caixa aparecerá após salvar.
 
-Clique em Rebuild(em português, "Reconstruir"). Aguarde até que seu espaço de código recrie o ambiente VS Code.
+Clique em Rebuild(em português, "Reconstruir"). Aguarde até que seu Codespace recrie o ambiente VS Code.
 
 <br />
 
@@ -218,7 +218,7 @@ Este modelo de projeto fornece uma base para você criar uma lição personaliza
 
 > 👋 Obtendo acesso ao Copilot
 >
-> O GitHub Copilot é **GRATUITO** para estudantes e professores, [saiba mais aqui](https://aka.ms/copilot-estudantes). Siga [essas etapas](https://techcommunity.microsoft.com/t5/educator-developer-blog/step-by-step-setting-up-github-student-and-github-copilot-as-an/ba-p/3736279?WT.mc_id=academic-0000-sagibbon) para verificar sua associação de alunos ou professores e habilitar o Copilot gratuitamente.
+> O GitHub Copilot é **GRATUITO** para estudantes e professores, [saiba mais aqui](https://education.github.com/pack/join). Siga [essas etapas](https://aka.ms/copilot-estudantes) para verificar sua associação de alunos ou professores e habilitar o Copilot gratuitamente.
 
 <br/>
 
