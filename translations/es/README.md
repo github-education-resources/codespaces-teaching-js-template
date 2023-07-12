@@ -73,6 +73,7 @@ Configuramos esta plantilla para mostrar una aplicación web que usa el framewor
 Hemos incluido la estructura de archivos mínima para una aplicación de trabajo, por lo que tiene la capacidad inmediata de personalizar. También se incluye un componente de muestra (Header) para demostrar cómo incorporar componentes en su aplicación.
 
 La plantilla usa [Parcel](https://parceljs.org/) porque se considera una de las más fáciles de usar, con una configuración limitada. Por supuesto, puede ampliar o reemplazar esto.
+
 ![image](https://user-images.githubusercontent.com/82035/195201984-2ca8f38b-c834-4b94-a69a-5a727aaf90eb.png)
 
 <br />
@@ -304,11 +305,11 @@ Intente hacer que cree una lista de recursos para sus estudiantes. O qué tal un
 
 ## 📚 Recursos
 
-* [Resumen de documentos de GitHub Codespaces] (https://docs.github.com/en/codespaces/overview)
-* [Inicio rápido de documentos de GitHub Codespaces] (https://docs.github.com/en/codespaces/getting-started/quickstart)
+* [Resumen de documentos de GitHub Codespaces](https://docs.github.com/en/codespaces/overview)
+* [Inicio rápido de documentos de GitHub Codespaces](https://docs.github.com/en/codespaces/getting-started/quickstart)
 * [Documentos de GitHub Copilot](https://docs.github.com/en/copilot)
 * [Usar contenedores de desarrollo localmente con VS Code y Docker](https://github.com/microsoft/vscode-remote-try-node#vs-code-dev-containers)
-* [Uso de GitHub Codespaces con GitHub Classroom](https://docs.github.com/en/education/manage-coursework-with-github-classroom/integrate-github-classroom-with-an-ide/using-github- codespaces-with-github-classroom)
+* [Uso de GitHub Codespaces con GitHub Classroom](https://docs.github.com/en/education/manage-coursework-with-github-classroom/integrate-github-classroom-with-an-ide/using-github-codespaces-with-github-classroom)
 
 > #### Aplicación de navegador Codespaces
 >
