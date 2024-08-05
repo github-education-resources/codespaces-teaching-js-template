@@ -85,7 +85,8 @@ To run what's in this repository, you need to first start a Codespaces instance.
 1. Navigate to the main page of the newly created repository.
 1. Under the repository name, use the Code drop-down menu, and in the Codespaces tab, select "Create codespace on main".
 
-    <img src="https://docs.github.com/assets/cb-138303/images/help/codespaces/new-codespace-button.png" alt="Create Codespace" style="width: 270px;"/>
+    <img src="__images__/create_codespaces.png" alt="Create Codespace" style="width: 600px;" />
+
 
 1. Wait as GitHub initializes the Codespace.
 
